@@ -1,4 +1,4 @@
-var express = require('express');
+/*var express = require('express');
 var app = express();
 
 var port = '5000';
@@ -14,4 +14,11 @@ app.get('/', function (req, res) {
 
 app.listen(5000, function (err) {
     console.log('running server on port ' + port);
-});
+});*/
+
+var http = require('http')
+var port = process.env.PORT || 1337;
+http.createServer(function(req, res) {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello World\n');
+}).listen(port);
