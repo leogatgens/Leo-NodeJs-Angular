@@ -1,12 +1,12 @@
 # Leo-NodeJs-Angular
 
-## Tools, Herramientas o librerias utilizadas.
- #### Express
- #### Gulp
- #### Bootstrap Templates
- #### Bower
- #### Wiredep
- #### Handlebars
+##Tools, Herramientas o librerias utilizadas.
+ ####Express
+ ####Gulp
+ ####Bootstrap Templates
+ ####Bower
+ ####Wiredep
+ ####Handlebars
 
 
 ###Para publicar GoogleCloud
