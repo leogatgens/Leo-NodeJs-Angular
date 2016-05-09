@@ -1,7 +1,7 @@
 # Leo-NodeJs-Angular
 
 ##Tools, Herramientas o librerias utilizadas
-(Express,Gulp,Bootstrap Templates,Bower,Wiredep,Handlebars)
+(Express,Gulp,Bootstrap Templates,Bower,Wiredep,EJS)
 
 
 ###Para publicar GoogleCloud
