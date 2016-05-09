@@ -1,6 +1,6 @@
 # Leo-NodeJs-Angular
 
-##Tools, Herramientas o librerias utilizadas.
+##Tools, Herramientas o librerias utilizadas
 
  ###Express
  ####Gulp
