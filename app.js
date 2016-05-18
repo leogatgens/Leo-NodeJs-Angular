@@ -4,15 +4,17 @@ var app = express();
 
 var port = process.env.PORT || 8080;
 
+
 app.use(express.static('public'));
 app.use(express.static('src/views'));
 
 
 app.get('/', function (req, res) {
-    res.send('Hello Leo como estas?');
+	res.send('Hello Leo como estas?');
 });
 
 
+
 app.listen(port, function (err) {
-    console.log('running server on port ' + port);
+	console.log('running server on port ' + port);
 });
