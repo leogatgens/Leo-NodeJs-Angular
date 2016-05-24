@@ -25,7 +25,22 @@ app.set('view engine', 'ejs');
 
 app.get('/', function (req, res) {
 	res.render('index', {
-		list: ['a', 'b', 'c']
+		list: [{
+			Link: '#one',
+			Text: 'Historia'
+		}, {
+			Link: '#two',
+			Text: 'Consumo responsable'
+		}, {
+			Link: '#three',
+			Text: 'Fotos'
+		}, {
+			Link: '#four',
+			Text: 'Atributos'
+		}, {
+			Link: '#last',
+			Text: 'Contacto'
+		}]
 	});
 });
 
