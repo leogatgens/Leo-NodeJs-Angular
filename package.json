@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/leogatgens/Leo-NodeJs-Angular",
   "dependencies": {
+    "ejs": "^2.4.2",
     "express": "^4.13.4",
     "express-handlebars": "^3.0.0",
     "handlebars": "^4.0.5",

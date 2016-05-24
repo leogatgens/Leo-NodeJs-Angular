@@ -14,11 +14,11 @@ app.set('views', 'src/views');
 //app.set('view engine', 'jade');
 
 ///EJEMPLO CON HandleBars-express
-var handlebars = require('express-handlebars');
-app.engine('.hbs', handlebars({
-	extname: '.hbs'
-}));
-app.set('view engine', '.hbs');
+//var handlebars = require('express-handlebars');
+//app.engine('.hbs', handlebars({
+//	extname: '.hbs'
+//}));
+app.set('view engine', 'ejs');
 
 
 
