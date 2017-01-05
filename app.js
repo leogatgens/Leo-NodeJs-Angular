@@ -13,7 +13,9 @@ app.get('/', function (req, res) {
 	res.send('Hello Leo como estas?');
 });
 
-
+app.get('/books', function(req, res){
+    res.send('Hello Books');
+});
 
 app.listen(port, function (err) {
 	console.log('running server on port ' + port);
